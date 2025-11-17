@@ -1,0 +1,13 @@
+//reads an interger and a float value from the user and they display them
+#include<stdio.h>
+int main()
+{int a;
+float b;
+printf("enter an integer:");
+scanf("%d",&a);
+printf("enter an float:");
+scanf("%f",&b);
+printf("/n you entered integer: %d\n",a);
+printf("/n you entered float: %.2f\n",&b);
+return 0;
+}
