@@ -1,4 +1,4 @@
-//reads an interger and a float value from the user and they display them
+
 #include<stdio.h>
 int main()
 {int a,b,A;
