@@ -1,0 +1,11 @@
+//reads an interger and a float value from the user and they display them
+#include<stdio.h>
+int main()
+{int a,b,A;
+printf("enter the value of a");
+scanf("%d",&a);
+printf("enter the the value of b");
+scanf("%d",&b);
+A=a*b;
+printf("area of rectangle %d",A);
+}
